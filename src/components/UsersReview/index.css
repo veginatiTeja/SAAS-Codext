@@ -1,0 +1,71 @@
+.user-review-container {
+  margin-top: 30px;
+}
+.review-heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  line-height: 1.6;
+  text-align: center;
+}
+.review-des {
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  color: #323f4b;
+  width: 600px;
+  margin-left: 120px;
+}
+.review-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.review-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 8px;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding: 20px;
+}
+.fa-quote {
+  color: #323f4b;
+  align-self: flex-start;
+}
+.review-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #323f4b;
+  margin-left: 20px;
+}
+.author-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.author-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.review-category {
+  display: flex;
+  flex-direction: column;
+}
+.author-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.author-design {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #323f4b;
+  margin-top: 0px;
+}
